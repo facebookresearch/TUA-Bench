@@ -1,0 +1,119 @@
+{
+  "slug": "090-ecs-grf-pass-rates",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs15.pdf",
+      "path": "/app/Fundings/ecs/ecs15.pdf",
+      "dest_name": "ecs15.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs16.pdf",
+      "path": "/app/Fundings/ecs/ecs16.pdf",
+      "dest_name": "ecs16.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs17.pdf",
+      "path": "/app/Fundings/ecs/ecs17.pdf",
+      "dest_name": "ecs17.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs23.pdf",
+      "path": "/app/Fundings/ecs/ecs23.pdf",
+      "dest_name": "ecs23.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs22.pdf",
+      "path": "/app/Fundings/ecs/ecs22.pdf",
+      "dest_name": "ecs22.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs21.pdf",
+      "path": "/app/Fundings/ecs/ecs21.pdf",
+      "dest_name": "ecs21.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs20.pdf",
+      "path": "/app/Fundings/ecs/ecs20.pdf",
+      "dest_name": "ecs20.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs19.pdf",
+      "path": "/app/Fundings/ecs/ecs19.pdf",
+      "dest_name": "ecs19.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs18.pdf",
+      "path": "/app/Fundings/ecs/ecs18.pdf",
+      "dest_name": "ecs18.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/customer-information-sheet-for-inward-payments-to-hong-kong.pdf",
+      "path": "/app/Fundings/grf/customer-information-sheet-for-inward-payments-to-hong-kong.pdf",
+      "dest_name": "customer-information-sheet-for-inward-payments-to-hong-kong.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf15.pdf",
+      "path": "/app/Fundings/grf/grf15.pdf",
+      "dest_name": "grf15.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf16.pdf",
+      "path": "/app/Fundings/grf/grf16.pdf",
+      "dest_name": "grf16.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf17.pdf",
+      "path": "/app/Fundings/grf/grf17.pdf",
+      "dest_name": "grf17.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf18.pdf",
+      "path": "/app/Fundings/grf/grf18.pdf",
+      "dest_name": "grf18.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf19.pdf",
+      "path": "/app/Fundings/grf/grf19.pdf",
+      "dest_name": "grf19.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf20.pdf",
+      "path": "/app/Fundings/grf/grf20.pdf",
+      "dest_name": "grf20.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf21.pdf",
+      "path": "/app/Fundings/grf/grf21.pdf",
+      "dest_name": "grf21.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf22.pdf",
+      "path": "/app/Fundings/grf/grf22.pdf",
+      "dest_name": "grf22.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf23.pdf",
+      "path": "/app/Fundings/grf/grf23.pdf",
+      "dest_name": "grf23.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/supported_rate.xlsx",
+      "path": "/app/Fundings/supported_rate.xlsx",
+      "dest_name": "supported_rate.xlsx"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/app/Fundings/ecs",
+          "/app/Fundings/grf"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

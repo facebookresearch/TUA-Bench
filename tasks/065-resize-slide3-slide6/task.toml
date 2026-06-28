@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/065-resize-slide3-slide6"
+description = "The height of picture should be 20cm on slide 3 while the font size of all textboxes should be 40pt on slide 6."
+authors = []
+keywords = ["libreoffice-impress", "slides", "osworld", "compare_pptx_files", "compare_pptx_files", "slide3", "image", "20cm", "and", "slide6"]
+
+[metadata]
+category = "presentation-editing"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 3072
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

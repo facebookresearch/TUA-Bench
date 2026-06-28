@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/119-tabstop-sentence-split"
+description = "Use LibreOffice Writer tabstops to keep the first three words left and the rest right-aligned."
+authors = []
+keywords = ["libreoffice-writer", "tabstops", "first", "three", "words"]
+
+[metadata]
+category = "document-editing"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

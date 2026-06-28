@@ -1,0 +1,1 @@
+Given the website `https://www.apple.com/`, could you help me compare the iPhone 15 Pro Max with the iPhone 14 Pro Max and the iPhone 13 Pro Max? Use Chrome to open Apple's iPhone comparison page for those three models. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

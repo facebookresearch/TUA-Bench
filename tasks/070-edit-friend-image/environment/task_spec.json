@@ -1,0 +1,17 @@
+{
+  "slug": "070-edit-friend-image",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/09a37c51-e625-49f4-a514-20a773797a8a/requirement.docx",
+      "path": "/home/user/Desktop/requirment.docx",
+      "dest_name": "requirment.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/09a37c51-e625-49f4-a514-20a773797a8a/ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg",
+      "path": "/home/user/Desktop/ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg",
+      "dest_name": "ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

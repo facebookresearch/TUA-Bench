@@ -1,0 +1,1 @@
+Given the file `~/Desktop/Interstellar Movie - Official Trailer.mp4`, could you help me make a part of the video my computer's background picture? You can optionally use VLC Media Player (a headless `vlc` or `cvlc` workflow is acceptable in this terminal-first Harbor environment) if needed. Please leave the final wallpaper set when you finish, as no extra output file is required.

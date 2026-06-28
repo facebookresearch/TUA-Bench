@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/059-make-summary-slide"
+description = "I am making PPT on LibreOffice Impress for presentation tomorrow. I need to summarize contents on one slide use Impress \"Summary Slide\" feature. Could you make that for me?"
+authors = []
+keywords = ["libreoffice-impress", "slides", "osworld", "compare_pptx_files", "create", "summary", "slide"]
+
+[metadata]
+category = "presentation-editing"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 3072
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

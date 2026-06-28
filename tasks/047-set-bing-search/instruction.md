@@ -1,0 +1,1 @@
+Could you help me make Bing the main search engine when I look stuff up on the internet? Please make this change in Chrome's saved Default profile, editing the profile files directly if that is the most reliable way to do it, and then quit the browser so the updated profile is written to disk.

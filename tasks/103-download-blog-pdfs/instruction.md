@@ -1,0 +1,1 @@
+I browsed a lot of interesting blog articles today. I hope to store these articles in my local designated folder just like Zotero stores papers. Please download the blogs opening now in pdf format and save them in their title to `/home/user/Documents/Blog`.

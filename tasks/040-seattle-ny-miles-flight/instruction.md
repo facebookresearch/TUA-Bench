@@ -1,0 +1,1 @@
+Given the website `https://www.delta.com/`, could you help me find flights from Seattle to New York on the 5th of next month and only show those that can be purchased with miles? You may optionally use Chrome if needed. Please use the existing Delta tab. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

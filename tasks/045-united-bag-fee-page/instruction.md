@@ -1,0 +1,1 @@
+Given the website `https://www.united.com/en/us`, could you help me navigate to the United Airlines checked bag fee calculator page, optionally using Chrome if needed? Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

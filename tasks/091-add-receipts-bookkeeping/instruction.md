@@ -1,0 +1,1 @@
+Given the workbook `/app/my_bookkeeping.xlsx` and the receipt files `/app/receipt_0.jpeg`, `/app/receipt_1.jpg`, `/app/receipt_2.jpg`, `/app/receipt_3.pdf`, and `/app/receipt_4.jpg`, use command-line tools to update the bookkeeping sheet with the recent transactions shown in those files. Save the completed spreadsheet in place at `/app/my_bookkeeping.xlsx`.

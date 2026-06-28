@@ -1,0 +1,1 @@
+Given the file `/home/user/Desktop/src.mp4`, could you help me create a 5-second animated GIF clip beginning at 00:03, optionally using VLC and GIMP if needed? Please save the final output to `/home/user/Desktop/src_clip.gif`.

@@ -1,0 +1,9 @@
+{
+  "artifact_dir": "/app/artifacts",
+  "input_volume_path": "/app/input/case_7f3a9c_mri.nii.gz",
+  "obj_output_path": "/app/artifacts/prostate_model.obj",
+  "render_output_path": "/app/artifacts/prostate_render.png",
+  "suggested_scene_path": "/app/artifacts/prostate_scene.mrb",
+  "suggested_segmentation_path": "/app/artifacts/prostate_segmentation.seg.nrrd",
+  "model_name": "prostate"
+}

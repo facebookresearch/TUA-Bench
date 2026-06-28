@@ -1,0 +1,1 @@
+Given the spreadsheet `/home/user/Desktop/Course Timetable.xlsx`, could you help me add a two-hour lecture slot scheduled for every Wednesday at 12 PM? It seems I accidentally omitted that when setting up my schedule. I'd appreciate you taking care of that for me. Thanks!

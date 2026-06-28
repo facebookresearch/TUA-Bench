@@ -1,0 +1,1 @@
+Given the files in your vscode project, could you help me merge the contents of all the .txt files into a single document, optionally using LibreOffice Writer if needed? No merging separator is required. Please ensure the overall font size of the document is set to 10, and save the final output to `/home/user/Desktop/concat.docx`.

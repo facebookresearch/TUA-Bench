@@ -1,0 +1,19 @@
+{
+  "slug": "077-corresponding-scholar-url",
+  "artifact_paths": [
+    "/app/corresponding_author_scholar_url.txt"
+  ],
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/36037439-2044-4b50-b9d1-875b5a332143/shi17a.pdf",
+      "path": "/app/shi17a.pdf",
+      "dest_name": "shi17a.pdf"
+    }
+  ],
+  "build_setup": [],
+  "startup": {},
+  "input_path": "/app/shi17a.pdf",
+  "output_path": "/app/corresponding_author_scholar_url.txt",
+  "expected_url": "https://scholar.google.com/citations?hl=en&oi=ao&user=qRAQ5BsAAAAJ",
+  "expected_user_id": "qRAQ5BsAAAAJ"
+}

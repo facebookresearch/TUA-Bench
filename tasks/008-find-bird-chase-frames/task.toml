@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/008-find-bird-chase-frames"
+description = "Identify the frame range where a person chasing a bird appears in a video"
+authors = []
+keywords = ["video-understanding", "video", "frame-range", "ffmpeg", "temporal-localization"]
+
+[metadata]
+category = "video-understanding"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 6
+memory_mb = 8192
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

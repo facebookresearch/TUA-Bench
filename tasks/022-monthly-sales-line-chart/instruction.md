@@ -1,0 +1,1 @@
+Given the file `/app/SalesRep.xlsx`, optionally using LibreOffice Calc if needed, could you help me work out the monthly total sales in a new row called "Total"? Once calculated, please create a line chart to show the results with the months on the x-axis, and save the completed spreadsheet in place at `/app/SalesRep.xlsx`.

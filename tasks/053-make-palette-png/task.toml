@@ -1,0 +1,38 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/053-make-palette-png"
+description = "Use GIMP to convert the provided image into a palette-based PNG while preserving its appearance"
+authors = []
+keywords = ["gimp", "image-editing", "palette", "indexed-color", "png", "image-mode", "osworld"]
+
+[metadata]
+category = "image-editing"
+difficulty = "easy"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+[environment.env]
+[solution.env]

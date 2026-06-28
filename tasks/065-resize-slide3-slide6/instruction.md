@@ -1,0 +1,1 @@
+Given the file `/app/42_2.pptx`, could you help me update it, optionally using LibreOffice Impress if needed? Please set the height of the picture on slide 3 to 20cm, and change the font size of all textboxes on slide 6 to 40pt. Finally, save the updated presentation in place at `/app/42_2.pptx`.

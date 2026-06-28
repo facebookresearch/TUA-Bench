@@ -1,0 +1,1 @@
+Given the website `https://www.nba.com/`, could you help me browse to a page showing women's Nike jerseys priced over $60? You can do this optionally using Chrome if needed. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

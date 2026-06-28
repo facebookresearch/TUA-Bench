@@ -1,0 +1,68 @@
+{
+  "case_name": "simple_plate",
+  "generated_from": "../simple_plate",
+  "openfoam_solver": "laplacianFoam",
+  "openfoam_version": "11",
+  "final_time_s": 120.0,
+  "mesh": {
+    "cell_count": 7680,
+    "point_count": 10045,
+    "face_count": 25312,
+    "internal_face_count": 20768,
+    "patch_face_counts": {
+      "heatSource": 64,
+      "topRest": 1856,
+      "bottomSink": 1920,
+      "xmin": 160,
+      "xmax": 160,
+      "ymin": 192,
+      "ymax": 192
+    }
+  },
+  "inputs": {
+    "heater_temperature_K": 400.0,
+    "ambient_temperature_K": 300.0,
+    "top_cooling_value_fraction": 0.005,
+    "insulated_boundaries": [
+      "bottomSink",
+      "xmin",
+      "xmax",
+      "ymin",
+      "ymax"
+    ],
+    "thermal_diffusivity_m2_per_s": 8.4e-05
+  },
+  "reference_metrics": {
+    "internal_min_temperature_K": 304.86388,
+    "internal_max_temperature_K": 399.34318,
+    "top_surface_min_temperature_K": 304.8395690917969,
+    "top_surface_max_temperature_K": 400.0,
+    "reported_min_temperature_K": 304.8395690917969,
+    "reported_max_temperature_K": 400.0
+  },
+  "reference_files": {
+    "simple_plate_ground_truth_T_120.foam": {
+      "sha256": "3e6f1c6d2aef2680d7966e0e991bfa7f6559558c9532959179a202be324a2f1a"
+    },
+    "simple_plate_ground_truth_120s.vtk": {
+      "sha256": "f1682ecedf7d72ffb52415151591c1af2a2d59a6c15cd3e565ea492bb74c2396"
+    },
+    "../simple_plate/120/T": {
+      "sha256": "3e6f1c6d2aef2680d7966e0e991bfa7f6559558c9532959179a202be324a2f1a"
+    },
+    "../simple_plate/VTK/simple_plate_6000.vtk": {
+      "sha256": "f1682ecedf7d72ffb52415151591c1af2a2d59a6c15cd3e565ea492bb74c2396"
+    },
+    "../simple_plate_temperature_top.svg": {
+      "sha256": "afd9b4f0efa323866fffc95fda28636d911a8bb33249186adf4c454092965cb1"
+    },
+    "../simple_plate_metrics.json": {
+      "sha256": "0eee29293c31f8ebba6eed89ec6269e4eae19207fe30d2fde288b83efd2898c5"
+    }
+  },
+  "comparison_tolerances": {
+    "metric_temperature_abs_K": 0.05,
+    "field_temperature_abs_K_same_mesh": 1e-06,
+    "field_temperature_abs_K_remeshed": 0.5
+  }
+}

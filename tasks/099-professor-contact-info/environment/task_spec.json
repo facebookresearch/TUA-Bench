@@ -1,0 +1,12 @@
+{
+  "slug": "099-professor-contact-info",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/c7c1e4c3-9e92-4eba-a4b8-689953975ea4/Professor_Contact.xlsx",
+      "path": "/home/user/Desktop/Professor_Contact.xlsx",
+      "dest_name": "Professor_Contact.xlsx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/018-calculate-total-earnings"
+description = "I have calculated the total work hours from the daily hours, and I have an hourly rate. Now I want to multiply the total hours by the hourly rate to get a total earned amount. However, I can't get the correct answer by directly multiplying the two cells. Here the \"total hours\" value is formatted as time and \"hourly rate\" is just a number. How can I get the correct product? Help me fill in the cell with the correct answer. Don't touch irrelevant blank regions."
+authors = []
+keywords = ["libreoffice-calc", "spreadsheet", "osworld", "compare_table", "multiply", "time", "number"]
+
+[metadata]
+category = "spreadsheet-editing"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

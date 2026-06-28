@@ -1,0 +1,11 @@
+{
+  "artifact_dir": "/app/artifacts",
+  "input_volume_path": "/app/input/case_7f3a9c_mri.nii.gz",
+  "png_output_dir": "/app/artifacts/png_slices",
+  "slice_filename_pattern": "prostate_00_t2_slice_{index:02d}.png",
+  "expected_slice_count": 15,
+  "source_channel_index": 0,
+  "orientation_hint": "Export axial slices in Slicer display orientation; array equivalent is np.rot90(volume[:, :, z], 1).",
+  "ssim_threshold": 0.995,
+  "nrmse_threshold": 0.02
+}

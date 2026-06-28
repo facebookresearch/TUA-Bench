@@ -1,0 +1,1 @@
+Given the Chrome profile settings, lately I have changed my English name to Thomas. I want to update my username. Could you help me change the profile name to `Thomas`? You can optionally use Chrome if needed, but please make sure the updated profile is successfully written to disk.

@@ -1,0 +1,12 @@
+{
+  "slug": "097-slides-to-document",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/bb83cab4-e5c7-42c7-a67b-e46068032b86/Unlocking-the-Power-of-ChatGPT.pptx",
+      "path": "/home/user/Desktop/Unlocking-the-Power-of-ChatGPT.pptx",
+      "dest_name": "Unlocking-the-Power-of-ChatGPT.pptx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

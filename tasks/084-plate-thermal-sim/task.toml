@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/084-plate-thermal-sim"
+description = "Run an OpenFOAM simple heated plate simulation from STL and parameter inputs"
+authors = []
+keywords = ["industrials", "openfoam", "thermal-simulation", "laplacianFoam", "heat-transfer", "stl", "cfd"]
+
+[metadata]
+category = "industry"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 6
+memory_mb = 8192
+storage_mb = 40960
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

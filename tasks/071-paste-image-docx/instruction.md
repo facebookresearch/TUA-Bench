@@ -1,0 +1,1 @@
+Given the .xcf file on the Desktop, could you help me copy the image and paste it into a document, optionally using LibreOffice Writer if needed? Please save the document as 'image.docx' on the Desktop. Final output path: `/home/user/Desktop/image.docx`.

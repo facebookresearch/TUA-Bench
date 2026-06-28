@@ -1,0 +1,1 @@
+Given the file `/app/orange_background.xcf`, could you help me shift the text box to the left side of the canvas? I keep accidentally selecting the image layer beneath it. You can do this optionally using GIMP if needed, and please save the result as `/app/leftside_textbox.png`.

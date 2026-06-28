@@ -1,0 +1,9 @@
+{
+  "reference_totals_kwh": {
+    "annual_electricity_kwh": 811730.368064642,
+    "annual_natural_gas_kwh": 61069.21188354492,
+    "annual_fuel_oil_kwh": 863154.7514590902,
+    "annual_site_energy_kwh": 1735954.3295428753
+  },
+  "relative_tolerance": 0.01
+}

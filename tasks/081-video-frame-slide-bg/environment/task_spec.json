@@ -1,0 +1,17 @@
+{
+  "slug": "081-video-frame-slide-bg",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/47f7c0ce-a5fb-4100-a5e6-65cd0e7429e5/landscape.mp4",
+      "path": "/app/landscape.mp4",
+      "dest_name": "landscape.mp4"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/47f7c0ce-a5fb-4100-a5e6-65cd0e7429e5/Robotic_Workshop_Infographics.pptx",
+      "path": "/app/Robotic_Workshop_Infographics.pptx",
+      "dest_name": "Robotic_Workshop_Infographics.pptx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

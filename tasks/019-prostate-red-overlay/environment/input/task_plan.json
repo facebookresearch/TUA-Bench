@@ -1,0 +1,7 @@
+{
+  "artifact_dir": "/app/artifacts",
+  "input_volume_path": "/app/input/case_7f3a9c_mri.nii.gz",
+  "overlay_output_path": "/app/artifacts/prostate_red_overlay.nii.gz",
+  "model_name": "prostate",
+  "slice_area_relative_tolerance": 0.05
+}

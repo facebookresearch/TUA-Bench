@@ -1,0 +1,1 @@
+Given the file `/app/WeeklySales.xlsx`, could you help me create a clustered column chart showing the Sales and COGS data for each week in a new sheet named "Sheet2"? You can optionally use LibreOffice Calc if needed. Please set the chart title to "Sales & COGS", and save the completed spreadsheet in place at `/app/WeeklySales.xlsx`.

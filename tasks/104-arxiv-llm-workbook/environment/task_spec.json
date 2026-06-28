@@ -1,0 +1,12 @@
+{
+  "slug": "104-arxiv-llm-workbook",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/deec51c9-3b1e-4b9e-993c-4776f20e8bb2/New%20Large%20Language%20Models.xlsx",
+      "path": "/app/New Large Language Models.xlsx",
+      "dest_name": "New Large Language Models.xlsx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

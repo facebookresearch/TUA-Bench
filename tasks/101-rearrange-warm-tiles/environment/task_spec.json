@@ -1,0 +1,12 @@
+{
+  "slug": "101-rearrange-warm-tiles",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/d68204bf-11c1-4b13-b48b-d303c73d4bf6/tilearray.png",
+      "path": "/app/tilearray.png",
+      "dest_name": "tilearray.png"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

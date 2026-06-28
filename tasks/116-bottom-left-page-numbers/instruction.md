@@ -1,0 +1,1 @@
+Given the file `/app/LibreOffice_Open_Source_Word_Processing.docx`, could you help me add page numbers to every page at the bottom left? You can optionally use LibreOffice Writer if needed. Please save the updated document in place at `/app/LibreOffice_Open_Source_Word_Processing.docx` and keep the rest of the document content unchanged.

@@ -1,0 +1,49 @@
+{
+  "source_osm": "building.osm",
+  "source_weather": "weather.epw",
+  "artifact_dir": "/app/artifacts",
+  "reduced_osm_output": "/app/artifacts/gym_auditorium_only.osm",
+  "generated_idf_output": "/app/artifacts/generated_building.idf",
+  "simulation_output_dir": "/app/artifacts/energyplus_run",
+  "allowed_space_name_keywords": [
+    "gym",
+    "auditorium"
+  ],
+  "expected_space_count": 15,
+  "expected_thermal_zone_count": 15,
+  "floor_area_relative_tolerance": 0.05,
+  "sql_relative_tolerance": 0.01,
+  "sql_zero_abs_tolerance_gj": 0.01,
+  "sql_metrics": [
+    {
+      "table": "Site and Source Energy",
+      "row": "Total Site Energy",
+      "column": "Total Energy",
+      "units": "GJ"
+    },
+    {
+      "table": "Site and Source Energy",
+      "row": "Total Source Energy",
+      "column": "Total Energy",
+      "units": "GJ"
+    },
+    {
+      "table": "End Uses",
+      "row": "Total End Uses",
+      "column": "Electricity",
+      "units": "GJ"
+    },
+    {
+      "table": "End Uses",
+      "row": "Total End Uses",
+      "column": "Fuel Oil No 2",
+      "units": "GJ"
+    },
+    {
+      "table": "End Uses",
+      "row": "Total End Uses",
+      "column": "Natural Gas",
+      "units": "GJ"
+    }
+  ]
+}

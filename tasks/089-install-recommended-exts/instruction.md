@@ -1,0 +1,1 @@
+Given the file `/home/user/Desktop/Recommended_plugin_list.docx`, my friend, who is a "plugin guru," recommended some good plug-ins to me. Could you help me go to the Chrome Web Store and install all the listed plug-ins into the default Google Chrome profile so they remain listed as installed extensions after Chrome restarts?

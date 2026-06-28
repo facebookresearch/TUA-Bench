@@ -1,0 +1,37 @@
+{
+  "slug": "091-add-receipts-bookkeeping",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/my_bookkeeping.xlsx",
+      "path": "/app/my_bookkeeping.xlsx",
+      "dest_name": "my_bookkeeping.xlsx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_0.jpeg",
+      "path": "/app/receipt_0.jpeg",
+      "dest_name": "receipt_0.jpeg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_1.jpg",
+      "path": "/app/receipt_1.jpg",
+      "dest_name": "receipt_1.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_2.jpg",
+      "path": "/app/receipt_2.jpg",
+      "dest_name": "receipt_2.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_3.pdf",
+      "path": "/app/receipt_3.pdf",
+      "dest_name": "receipt_3.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_4.jpg",
+      "path": "/app/receipt_4.jpg",
+      "dest_name": "receipt_4.jpg"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

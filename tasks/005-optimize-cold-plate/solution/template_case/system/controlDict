@@ -1,0 +1,116 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  11
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+
+application     foamMultiRun;
+
+regionSolvers
+{
+    fluid           fluid;
+    solid           solid;
+}
+
+startFrom       startTime;
+startTime       0;
+stopAt          endTime;
+endTime         40;
+deltaT          1;
+
+writeControl    timeStep;
+writeInterval   10;
+purgeWrite      0;
+
+writeFormat     ascii;
+writePrecision  8;
+writeCompression off;
+
+timeFormat      general;
+timePrecision   6;
+runTimeModifiable true;
+
+adjustTimeStep  no;
+maxCo           1;
+maxDi           10;
+
+functions
+{
+    chipAverageTemperature
+    {
+        type            surfaceFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        region          solid;
+        writeControl    writeTime;
+        log             yes;
+        writeFields     false;
+        select          faceZone;
+        faceZone        chipBottom;
+        operation       areaAverage;
+        fields          (T);
+    }
+
+    solidMaxTemperature
+    {
+        type            volFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        region          solid;
+        writeControl    writeTime;
+        log             yes;
+        writeFields     false;
+        select          all;
+        operation       max;
+        fields          (T);
+    }
+
+    inletPressureAverage
+    {
+        type            surfaceFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        region          fluid;
+        writeControl    writeTime;
+        log             yes;
+        writeFields     false;
+        select          patch;
+        patch           xMin;
+        operation       areaAverage;
+        fields          (p);
+    }
+
+    outletPressureAverage
+    {
+        type            surfaceFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        region          fluid;
+        writeControl    writeTime;
+        log             yes;
+        writeFields     false;
+        select          patch;
+        patch           xMax;
+        operation       areaAverage;
+        fields          (p);
+    }
+
+    outletMassFlow
+    {
+        type            surfaceFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        region          fluid;
+        writeControl    writeTime;
+        log             yes;
+        writeFields     false;
+        select          patch;
+        patch           xMax;
+        operation       orientedSum;
+        fields          (phi);
+    }
+}

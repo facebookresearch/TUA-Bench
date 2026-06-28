@@ -1,0 +1,78 @@
+{
+  "task": "Find the top-surface heater origin that reproduces the four target temperatures.",
+  "case_type": "solid_heat_diffusion_plate",
+  "known_inputs": {
+    "plate_dimensions_m": [
+      0.08,
+      0.05,
+      0.005
+    ],
+    "heater_patch_size_m": [
+      0.01,
+      0.01
+    ],
+    "heater_temperature_K": 400.0,
+    "initial_temperature_K": 300.0,
+    "ambient_temperature_K": 300.0,
+    "top_cooling_value_fraction": 0.005,
+    "insulated_boundaries": [
+      "bottomSink",
+      "xmin",
+      "xmax",
+      "ymin",
+      "ymax"
+    ],
+    "thermal_diffusivity_m2_per_s": 8.4e-05,
+    "end_time_s": 120.0
+  },
+  "target_sensor_temperatures": [
+    {
+      "name": "S1",
+      "point_m": [
+        0.015,
+        0.01,
+        0.005
+      ],
+      "patch": "topRest",
+      "temperature_K": 327.7031555175781
+    },
+    {
+      "name": "S2",
+      "point_m": [
+        0.065,
+        0.01,
+        0.005
+      ],
+      "patch": "topRest",
+      "temperature_K": 307.8546142578125
+    },
+    {
+      "name": "S3",
+      "point_m": [
+        0.02,
+        0.04,
+        0.005
+      ],
+      "patch": "topRest",
+      "temperature_K": 354.8566589355469
+    },
+    {
+      "name": "S4",
+      "point_m": [
+        0.065,
+        0.04,
+        0.005
+      ],
+      "patch": "topRest",
+      "temperature_K": 308.9704284667969
+    }
+  ],
+  "heater_origin_search_domain_m": {
+    "x_min": 0.0,
+    "x_max": 0.07,
+    "y_min": 0.0,
+    "y_max": 0.04,
+    "z": 0.005
+  },
+  "success_criterion": "Match all four sensor temperatures within 0.5 K."
+}

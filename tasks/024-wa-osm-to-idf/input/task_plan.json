@@ -1,0 +1,19 @@
+{
+  "source_osm": "building.osm",
+  "source_parquet": "building_timeseries.parquet",
+  "translated_idf_output": "/app/generated_building.idf",
+  "summary_output": "/app/translation_summary.txt",
+  "translator": "openstudio",
+  "source_bldg_id": 100094,
+  "source_row_count": 35040,
+  "annual_site_energy_kwh": 1735954.329543,
+  "peak_hourly_site_energy_kwh": 347.375488,
+  "summary_key_order": [
+    "bldg_id",
+    "translated_version",
+    "building_name",
+    "row_count",
+    "annual_site_energy_kwh",
+    "peak_hourly_site_energy_kwh"
+  ]
+}

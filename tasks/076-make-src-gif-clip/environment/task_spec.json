@@ -1,0 +1,12 @@
+{
+  "slug": "076-make-src-gif-clip",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2fe4b718-3bd7-46ec-bdce-b184f5653624/src.mp4",
+      "path": "/home/user/Desktop/src.mp4",
+      "dest_name": "src.mp4"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

@@ -1,0 +1,1 @@
+Given the website `https://www.nfl.com/`, could you help me find the score record for the Super Bowl of the 2019 NFL season (played in 2020) on the NFL website, optionally using Chrome if needed? Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

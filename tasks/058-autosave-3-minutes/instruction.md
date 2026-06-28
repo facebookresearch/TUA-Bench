@@ -1,0 +1,1 @@
+Given the file `/home/agent/.config/libreoffice/4/user/registrymodifications.xcu`, could you help me enable auto-save every 3 minutes so that I don't need to hit "ctrl-s" that much, optionally using LibreOffice Impress if needed? Please make sure to quit the application when finished so the saved preference is written to the file.

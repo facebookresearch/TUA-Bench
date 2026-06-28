@@ -1,0 +1,1 @@
+Given the file `/app/30_1.pptx`, could you help me change the picture's height to 20cm, 30cm, and 25cm on slides 3, 4, and 6 respectively, optionally using LibreOffice Impress if needed? Please save the updated presentation in place at `/app/30_1.pptx`.

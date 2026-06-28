@@ -1,0 +1,112 @@
+{
+  "slug": "080-convert-novel-epub",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/invoice0123456789-2308.pdf",
+      "path": "/home/user/Documents/Finance/receipts/aws-invoice-2308.pdf",
+      "dest_name": "aws-invoice-2308.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/invoice0123456789-2309.pdf",
+      "path": "/home/user/Documents/Finance/receipts/aws-invoice-2309.pdf",
+      "dest_name": "aws-invoice-2309.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/invoice0123456789-2310.pdf",
+      "path": "/home/user/Documents/Finance/receipts/aws-invoice-2310.pdf",
+      "dest_name": "aws-invoice-2310.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/invoice0123456789-2311.pdf",
+      "path": "/home/user/Documents/Finance/receipts/aws-invoice-2311.pdf",
+      "dest_name": "aws-invoice-2311.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/invoice0123456789-2312.pdf",
+      "path": "/home/user/Documents/Finance/receipts/aws-invoice-2312.pdf",
+      "dest_name": "aws-invoice-2312.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/Receipt-0123-4567.pdf",
+      "path": "/home/user/Documents/Finance/receipts/X-receipt-2312.pdf",
+      "dest_name": "X-receipt-2312.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/tally_book.xlsx",
+      "path": "/home/user/Documents/Finance/tally_book.xlsx",
+      "dest_name": "tally_book.xlsx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/projects.tar.xz",
+      "path": "/home/user/.projects.tar.xz",
+      "dest_name": ".projects.tar.xz"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/old-chapters.tar.xz",
+      "path": "/home/user/.old-chapters.tar.xz",
+      "dest_name": ".old-chapters.tar.xz"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/42d25c08-fb87-4927-8b65-93631280a26f/PassThrough.tar.xz",
+      "path": "/home/user/.pass-through.tar.xz",
+      "dest_name": ".pass-through.tar.xz"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Documents/Finance/receipts",
+          "/home/user/Documents/Projects/OSWorld",
+          "/home/user/Documents/Novels/4th Year in Tsinghua",
+          "/home/user/Documents/Novels/Pass Through"
+        ]
+      }
+    },
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "tar",
+          "-xJvf",
+          "/home/user/.projects.tar.xz",
+          "-C",
+          "/home/user/Documents/Projects/OSWorld"
+        ]
+      }
+    },
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "tar",
+          "-xJvf",
+          "/home/user/.old-chapters.tar.xz",
+          "-C",
+          "/home/user/Documents/Novels/4th Year in Tsinghua"
+        ]
+      }
+    },
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "tar",
+          "-xJvf",
+          "/home/user/.pass-through.tar.xz",
+          "-C",
+          "/home/user/Documents/Novels/Pass Through"
+        ]
+      }
+    }
+  ],
+  "startup": {
+    "chrome_urls": [
+      "https://github.com/potatoeggy/noveldown",
+      "https://github.com/kevinboone/txt2epub"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "098-extract-email-doc-image",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/c2751594-0cd5-4088-be1b-b5f2f9ec97c4/thunderbird-profile.tar.gz",
+      "path": "/app/thunderbird-profile.tar.gz",
+      "dest_name": "thunderbird-profile.tar.gz"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "tar",
+          "--recursive-unlink",
+          "-xz",
+          "-f",
+          "/app/thunderbird-profile.tar.gz",
+          "-C",
+          "/app/"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

@@ -1,0 +1,1 @@
+Given the websites `https://www.dota2.com/home` and `https://store.steampowered.com/`, could you help me find the Dota 2 game on Steam and add all of its DLC to the cart? You can do this optionally using Chrome if needed. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

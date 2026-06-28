@@ -1,0 +1,12 @@
+{
+  "slug": "089-install-recommended-exts",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/873cafdd-a581-47f6-8b33-b9696ddb7b05/Recommended%20plugin%20list.docx",
+      "path": "/home/user/Desktop/Recommended_plugin_list.docx",
+      "dest_name": "Recommended_plugin_list.docx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

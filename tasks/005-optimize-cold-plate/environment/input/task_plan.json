@@ -1,0 +1,49 @@
+{
+  "artifact_dir": "/app/artifacts",
+  "case_input_dir": "/app/input",
+  "case_output_dir": "/app/artifacts/improved_case",
+  "metrics_output": "/app/artifacts/metrics.json",
+  "comparison_output": "/app/artifacts/baseline_vs_improved.md",
+  "render_dir": "/app/artifacts/renders",
+  "required_render_files": [
+    "geometry_view.svg",
+    "temperature_view.svg",
+    "top_surface_temperature.svg"
+  ],
+  "required_case_files": [
+    "design.json",
+    "build_case.py",
+    "run_case.sh",
+    "extract_metrics.py",
+    "render_svgs.py"
+  ],
+  "plate_envelope_mm": [80.0, 80.0, 10.0],
+  "chip_footprint_mm": [20.0, 20.0],
+  "chip_center_mm": [40.0, 40.0],
+  "chip_power_w": 300.0,
+  "coolant": "water",
+  "plate_material": "aluminum",
+  "inlet_temperature_k": 300.0,
+  "inlet_velocity_m_per_s": 0.05,
+  "fixed_top_surface_temperature_k": 300.0,
+  "other_dry_outer_boundary_condition": "adiabatic",
+  "fixed_inlet_opening_mm": {
+    "y_min": 35.0,
+    "y_max": 45.0,
+    "z_min": 6.0,
+    "z_max": 9.0
+  },
+  "fixed_outlet_opening_mm": {
+    "y_min": 35.0,
+    "y_max": 45.0,
+    "z_min": 6.0,
+    "z_max": 9.0
+  },
+  "minimum_solid_thickness_mm": 0.5,
+  "minimum_fluid_gap_mm": 0.5,
+  "target_metrics": {
+    "chip_average_temperature_k_max": 335.0,
+    "pressure_drop_pa_max": 12.0,
+    "outlet_mass_flow_kg_s_min": 0.0012
+  }
+}
