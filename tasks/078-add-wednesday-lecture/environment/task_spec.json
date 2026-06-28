@@ -1,0 +1,67 @@
+{
+  "slug": "078-add-wednesday-lecture",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Zheng%20He%20.docx",
+      "path": "/home/user/Desktop/students work/Zheng He .docx",
+      "dest_name": "Zheng He .docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/cassie.docx",
+      "path": "/home/user/Desktop/students work/cassie.docx",
+      "dest_name": "cassie.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/case%20study.docx",
+      "path": "/home/user/Desktop/students work/case study.docx",
+      "dest_name": "case study.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/irregularrules02.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/irregularrules02.pdf",
+      "dest_name": "irregularrules02.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/irregularrules01.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/irregularrules01.pdf",
+      "dest_name": "irregularrules01.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/fragrules.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/fragrules.pdf",
+      "dest_name": "fragrules.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/csfsrules.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/csfsrules.pdf",
+      "dest_name": "csfsrules.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Public%20Lecture%20Teaching%20Plan.docx",
+      "path": "/home/user/Desktop/Public Lecture Teaching Plan.docx",
+      "dest_name": "Public Lecture Teaching Plan.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/3a93cae4-ad3e-403e-8c12-65303b271818/Course%20Timetable.xlsx",
+      "path": "/home/user/Desktop/Course Timetable.xlsx",
+      "dest_name": "Course Timetable.xlsx"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Desktop/students work/",
+          "/home/user/Desktop/Lec powerpoint/",
+          "/home/user/Desktop/Grammar test/",
+          "/home/user/Desktop/Grammar rules PDF/",
+          "/home/user/Desktop/FDI/"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

@@ -1,0 +1,3 @@
+The event photos are already in `/home/user/Desktop/IDS LLM seminar/`, and your shell starts in `/home/user/Desktop`.
+
+Please sift through the photos in `IDS LLM seminar` and extract the ones featuring the presenter Tao Yu into `/home/user/Desktop/presenter/`. Use Tao Yu's public profile or official web photo as the visual reference, and include every photo where he appears anywhere in the frame, including distant or group shots. Then create `/home/user/Desktop/presenter.zip` from that folder so that unzipping the archive recreates the `presenter/` folder on the Desktop. Keep both the extracted folder and the zip archive on the Desktop, not inside `IDS LLM seminar/`.

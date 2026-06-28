@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/005-optimize-cold-plate"
+description = "Improve a liquid-cooled aluminum cold plate by changing only the internal coolant-side geometry and rerunning an OpenFOAM steady CHT smoke test"
+authors = []
+keywords = ["industrials", "openfoam", "paraview", "thermal-design", "cold-plate", "cht", "cfd", "heat-transfer", "water-cooling", "steady-state"]
+
+[metadata]
+category = "industry"
+difficulty = "hard"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 6
+memory_mb = 8192
+storage_mb = 40960
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

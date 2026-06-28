@@ -1,0 +1,48 @@
+{
+  "slug": "088-extract-presenter-photos",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00659.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00659.jpg",
+      "dest_name": "DSC00659.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00657.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00657.jpg",
+      "dest_name": "DSC00657.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00574.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00574.jpg",
+      "dest_name": "DSC00574.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00554.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00554.jpg",
+      "dest_name": "DSC00554.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00495.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00495.jpg",
+      "dest_name": "DSC00495.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/82e3c869-49f6-4305-a7ce-f3e64a0618e7/DSC00454.jpg",
+      "path": "/home/user/Desktop/IDS LLM seminar/DSC00454.jpg",
+      "dest_name": "DSC00454.jpg"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Desktop/IDS LLM seminar/"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

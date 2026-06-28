@@ -1,0 +1,13 @@
+space_type_name,area_m2,people_per_m2,lights_w_per_m2,equipment_w_per_m2,oa_per_person_m3_s,oa_per_area_m3_s_m2
+SecondarySchool Classroom - ComStock DOE Ref 1980-2004,1273.488,0.24994,6.25559,3.45304,0.0079995,0.0000000
+SecondarySchool Gym - ComStock DOE Ref 1980-2004,1171.740,1.00040,8.20420,1.72838,0.0094389,0.0000000
+SecondarySchool Corridor - ComStock DOE Ref 1980-2004,773.911,0.10021,2.94907,0.85490,0.0000000,0.0005080
+SecondarySchool Gym - audience - ComStock DOE Ref 1980-2004,739.740,0.30031,8.20420,0.85013,0.0094389,0.0000000
+SecondarySchool Auditorium - ComStock DOE Ref 1980-2004,585.289,1.00040,2.37955,0.85490,0.0070792,0.0000000
+SecondarySchool Cafeteria - ComStock DOE Ref 1980-2004,370.451,0.71946,5.34514,1.72652,0.0094389,0.0000000
+SecondarySchool Restroom - ComStock DOE Ref 1980-2004,248.516,0.10000,5.40796,13.28807,0.0000000,0.0048768
+SecondarySchool Lobby - ComStock DOE Ref 1980-2004,198.612,0.00000,4.75736,0.68763,0.0000000,0.0005080
+SecondarySchool Mechanical - ComStock DOE Ref 1980-2004,187.790,0.01001,6.95572,1.85847,0.0000000,0.0002540
+SecondarySchool Library - ComStock DOE Ref 1980-2004,132.936,0.22970,16.74096,0.68763,0.0079995,0.0000000
+SecondarySchool Kitchen - ComStock DOE Ref 1980-2004,127.742,0.16663,15.87323,3.83774,0.0000000,0.0023876
+SecondarySchool Office - ComStock DOE Ref 1980-2004,105.097,0.05005,6.74433,0.68763,0.0094389,0.0000000

@@ -1,0 +1,11 @@
+{
+  "slug": "103-download-blog-pdfs",
+  "downloads": [],
+  "build_setup": [],
+  "startup": {
+    "chrome_urls": [
+      "https://lilianweng.github.io/posts/2023-06-23-agent/",
+      "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/"
+    ]
+  }
+}

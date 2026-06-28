@@ -1,0 +1,23 @@
+{
+  "slug": "069-linux-ls-tutorial",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/02ce9a50-7af2-47ed-8596-af0c230501f8/top-10-linux-commands-for-newbies.docx",
+      "path": "/home/user/Desktop/top-10-linux-commands-for-newbies.docx",
+      "dest_name": "top-10-linux-commands-for-newbies.docx"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "python",
+          "-c",
+          "import pyautogui; import time; pyautogui.hotkey('f11'); time.sleep(0.5); pyautogui.click({SCREEN_WIDTH_HALF}, {SCREEN_HEIGHT_HALF}); time.sleep(0.5); pyautogui.scroll(-20)"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

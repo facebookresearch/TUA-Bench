@@ -1,0 +1,21 @@
+{
+  "slug": "072-save-speedtest-results",
+  "downloads": [],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "python",
+          "-c",
+          "import pyautogui; import time; time.sleep(0.5);"
+        ]
+      }
+    }
+  ],
+  "startup": {
+    "chrome_urls": [
+      "https://www.speedtest.net/"
+    ]
+  }
+}

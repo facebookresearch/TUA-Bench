@@ -1,0 +1,1 @@
+Could you help me compose a Linux tutorial, optionally using LibreOffice Writer if needed? I'd like to display the results of running the "ls" command in /home/user. Please execute this command and save a screenshot of the terminal as 'ls.png' on the Desktop.

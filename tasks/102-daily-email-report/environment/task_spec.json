@@ -1,0 +1,27 @@
+{
+  "slug": "102-daily-email-report",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/d9b7c649-c975-4f53-88f5-940b29c47247/thunderbird-profile.tar.gz",
+      "path": "/app/thunderbird-profile.tar.gz",
+      "dest_name": "thunderbird-profile.tar.gz"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "tar",
+          "-xz",
+          "--recursive-unlink",
+          "-f",
+          "/app/thunderbird-profile.tar.gz",
+          "-C",
+          "/app/"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

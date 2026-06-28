@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+environment/input/case_7f3a9c_mri.nii.gz
+input/case_7f3a9c_mri.nii.gz
+solution/reference/prostate_00_label_backup.nii.gz
+tests/reference/prostate_00_label_backup.nii.gz

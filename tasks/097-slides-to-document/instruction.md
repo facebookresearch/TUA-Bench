@@ -1,0 +1,1 @@
+Given the file {path}, could you help me convert it into an editable document, optionally using Impress and Writer if needed? Simply extract the visible text from the presentation slides themselves, excluding speaker notes, comments, metadata, and any generated slide labels, and place it into `/home/user/Desktop/script.docx`; I'll handle the reformatting. Thank you!

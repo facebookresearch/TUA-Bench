@@ -1,0 +1,20 @@
+{
+  "slug": "093-merge-txt-document",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/98e8e339-5f91-4ed2-b2b2-12647cb134f4/doc_proc.zip",
+      "path": "/home/user/Desktop/doc_proc.zip",
+      "dest_name": "doc_proc.zip"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": "mkdir -p /home/user/Desktop/doc_proc/; unzip /home/user/Desktop/doc_proc.zip -d /home/user/Desktop/doc_proc/",
+        "shell": true
+      }
+    }
+  ],
+  "startup": {}
+}

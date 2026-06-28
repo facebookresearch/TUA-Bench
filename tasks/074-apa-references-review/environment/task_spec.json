@@ -1,0 +1,97 @@
+{
+  "slug": "074-apa-references-review",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Zheng%20He%20.docx",
+      "path": "/home/user/Desktop/students work/Zheng He .docx",
+      "dest_name": "Zheng He .docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/The%20literature%20reviews%20of%20weekly%20readings.docx",
+      "path": "/home/user/Desktop/students work/The literature reviews of weekly readings.docx",
+      "dest_name": "The literature reviews of weekly readings.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/The%20British%20Justice%20System.docx",
+      "path": "/home/user/Desktop/students work/The British Justice System.docx",
+      "dest_name": "The British Justice System.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/quiz2.docx",
+      "path": "/home/user/Desktop/students work/quiz2.docx",
+      "dest_name": "quiz2.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/quiz.docx",
+      "path": "/home/user/Desktop/students work/quiz.docx",
+      "dest_name": "quiz.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Q1%262%263.docx",
+      "path": "/home/user/Desktop/students work/Q1&2&3.docx",
+      "dest_name": "Q1&2&3.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Photo%20Ethics%20in%20Journalism.docx",
+      "path": "/home/user/Desktop/students work/Photo Ethics in Journalism.docx",
+      "dest_name": "Photo Ethics in Journalism.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/cassie.docx",
+      "path": "/home/user/Desktop/students work/cassie.docx",
+      "dest_name": "cassie.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/case%20study.docx",
+      "path": "/home/user/Desktop/students work/case study.docx",
+      "dest_name": "case study.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/irregularrules02.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/irregularrules02.pdf",
+      "dest_name": "irregularrules02.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/irregularrules01.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/irregularrules01.pdf",
+      "dest_name": "irregularrules01.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/fragrules.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/fragrules.pdf",
+      "dest_name": "fragrules.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/csfsrules.pdf",
+      "path": "/home/user/Desktop/Grammar rules PDF/csfsrules.pdf",
+      "dest_name": "csfsrules.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Public%20Lecture%20Teaching%20Plan.docx",
+      "path": "/home/user/Desktop/Public Lecture Teaching Plan.docx",
+      "dest_name": "Public Lecture Teaching Plan.docx"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e/Course%20Timetable.xlsx",
+      "path": "/home/user/Desktop/Course Timetable.xlsx",
+      "dest_name": "Course Timetable.xlsx"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Desktop/students work/",
+          "/home/user/Desktop/Lec powerpoint/",
+          "/home/user/Desktop/Grammar test/",
+          "/home/user/Desktop/Grammar rules PDF/",
+          "/home/user/Desktop/FDI/"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

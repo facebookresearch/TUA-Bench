@@ -1,0 +1,40 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+schema_version = "1.1"
+
+[task]
+name = "local/066-set-slide-image-heights"
+description = "Change picture's height to 20, 30, 25cm on slide 3, 4, 6 respectively."
+authors = []
+keywords = ["libreoffice-impress", "slides", "osworld", "compare_pptx_files", "compare_pptx_files", "slides346", "image", "heights", "20", "30"]
+
+[metadata]
+category = "presentation-editing"
+difficulty = "medium"
+
+[verifier]
+timeout_sec = 2400.0
+user = "agent"
+
+[agent]
+timeout_sec = 2400.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 2400.0
+cpus = 1
+memory_mb = 3072
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

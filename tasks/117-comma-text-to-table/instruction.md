@@ -1,0 +1,1 @@
+Given the file `/app/Graphemes_Sound_Letter_Patterns.docx`, could you help me convert the comma-separated text in the document into a table? You can do this optionally using LibreOffice Writer if needed. Please keep the rest of the document content unchanged and save the updated document in place at `/app/Graphemes_Sound_Letter_Patterns.docx`.

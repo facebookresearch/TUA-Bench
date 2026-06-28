@@ -1,0 +1,1 @@
+Given the file `/app/dog_with_background_two_layers.xcf`, could you assist me with resizing the dog layer? I need to adjust its height to 512 pixels while maintaining the original aspect ratio. You can accomplish this optionally using GIMP if needed, and please save the final result as `/app/resized.png`.

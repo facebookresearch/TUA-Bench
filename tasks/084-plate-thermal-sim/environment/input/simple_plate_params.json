@@ -1,0 +1,89 @@
+{
+  "case_name": "simple_plate",
+  "units": "SI",
+  "geometry": {
+    "surface_mesh": "simple_plate_regions.stl",
+    "plate_dimensions_m": [0.08, 0.05, 0.005],
+    "heater_patch": {
+      "name": "heatSource",
+      "origin_m": [0.0, 0.0, 0.005],
+      "size_m": [0.01, 0.01]
+    },
+    "surface_regions": [
+      "heatSource",
+      "topRest",
+      "bottomSink",
+      "xmin",
+      "xmax",
+      "ymin",
+      "ymax"
+    ]
+  },
+  "mesh_reference": {
+    "method_used_for_ground_truth": "OpenFOAM blockMesh",
+    "cell_count": 7680,
+    "point_count": 10045,
+    "patch_face_counts": {
+      "heatSource": 64,
+      "topRest": 1856,
+      "bottomSink": 1920,
+      "xmin": 160,
+      "xmax": 160,
+      "ymin": 192,
+      "ymax": 192
+    },
+    "nominal_cell_size_m": {
+      "heater_region": [0.00125, 0.00125, 0.00125],
+      "far_x_region": [0.00175, 0.00125, 0.00125]
+    }
+  },
+  "physics": {
+    "solver": "laplacianFoam",
+    "field": "T",
+    "initial_temperature_K": 300.0,
+    "thermal_diffusivity_m2_per_s": 8.4e-05
+  },
+  "boundary_conditions": {
+    "heatSource": {
+      "type": "fixedValue",
+      "temperature_K": 400.0
+    },
+    "topRest": {
+      "type": "mixed",
+      "ambient_temperature_K": 300.0,
+      "ref_gradient_K_per_m": 0.0,
+      "value_fraction": 0.005
+    },
+    "bottomSink": {
+      "type": "zeroGradient"
+    },
+    "xmin": {
+      "type": "zeroGradient"
+    },
+    "xmax": {
+      "type": "zeroGradient"
+    },
+    "ymin": {
+      "type": "zeroGradient"
+    },
+    "ymax": {
+      "type": "zeroGradient"
+    }
+  },
+  "time": {
+    "start_s": 0.0,
+    "end_s": 120.0,
+    "delta_t_s": 0.02,
+    "write_interval_s": 20.0
+  },
+  "numerics": {
+    "ddt_scheme": "Euler",
+    "laplacian_scheme": "Gauss linear corrected",
+    "linear_solver": "PCG",
+    "preconditioner": "DIC",
+    "tolerance": 1e-08,
+    "relative_tolerance": 0.0,
+    "non_orthogonal_correctors": 2
+  },
+  "comparison_note": "The STL contains the named surface regions and dimensions. The ground truth was generated from the matching blockMesh case in ../simple_plate. Re-meshing from STL may not be bit-for-bit identical, so compare metrics and sampled fields with tolerance unless you reproduce the blockMesh topology exactly."
+}

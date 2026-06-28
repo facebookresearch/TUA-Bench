@@ -1,0 +1,1 @@
+Given the file `/app/saa-format-guide.pptx`, I am preparing a presentation and the slide numbers are barely visible to me. Could you help me change the color of the slide numbers to red, optionally using LibreOffice Impress if needed? Please save the updated presentation in place at `/app/saa-format-guide.pptx`.

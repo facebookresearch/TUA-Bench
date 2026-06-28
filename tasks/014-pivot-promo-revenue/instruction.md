@@ -1,0 +1,1 @@
+Given the file `/app/EntireSummerSales.xlsx`, could you help me summarize the total revenue for each promotion type in a new sheet (Sheet2) with the promotion names as the column headers using the Pivot Table feature? You can optionally use LibreOffice Calc if needed. Once you're done, please save the completed spreadsheet in place at `/app/EntireSummerSales.xlsx`.

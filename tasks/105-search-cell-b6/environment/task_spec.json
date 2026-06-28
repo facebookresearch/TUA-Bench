@@ -1,0 +1,18 @@
+{
+  "slug": "105-search-cell-b6",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/f8cfa149-d1c1-4215-8dac-4a0932bad3c2/file.xls",
+      "path": "/home/user/cell_search.xls",
+      "dest_name": "cell_search.xls"
+    }
+  ],
+  "build_setup": [],
+  "startup": {
+    "chrome_urls": [
+      "https://en.wikipedia.org/wiki/Main_Page",
+      "https://pytorch.org/tutorials/",
+      "https://releases.ubuntu.com/"
+    ]
+  }
+}

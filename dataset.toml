@@ -1,0 +1,496 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+# Dataset manifest for local/tua-bench
+# Add tasks using: harbor add <org>/<name>
+# Publish using: harbor publish
+
+[dataset]
+name = "local/tua-bench"
+description = "TUA benchmark"
+authors = []
+keywords = []
+
+[[tasks]]
+name = "local/000-count-nuclei"
+digest = "sha256:ddc1cee493605f2373949fb562f263495c549d3d05780d28745850409206ed8b"
+
+[[tasks]]
+name = "local/001-locate-nuclei-centers"
+digest = "sha256:f436d9c8b81a6bc54ea45fe543cb6f92ce4453a38f71063ff059d4647601b277"
+
+[[tasks]]
+name = "local/002-count-enter-key-presses"
+digest = "sha256:5dbcc7865d59778100f22e7247f0a096935a1a36cf2ab1d6ff934b5edbc80548"
+
+[[tasks]]
+name = "local/003-rebuild-energy-model"
+digest = "sha256:0f0d57ccfcb1fb52751a913ccebc47ca5cd61fcd4210b335a395abb4ea5d9b79"
+
+[[tasks]]
+name = "local/004-place-heater-for-sensors"
+digest = "sha256:d65f066a8c8d2df3bed6383fa4bea9c2e137f139fd518025f8e4bdbb3bb2f12e"
+
+[[tasks]]
+name = "local/005-optimize-cold-plate"
+digest = "sha256:04a0bb1d57dcdb2ff14a47b044813cca48d97481dc09b5973a7300d344541db8"
+
+[[tasks]]
+name = "local/006-extract-gym-auditorium"
+digest = "sha256:c778d39212a923a207258197478e964794e58487c799d79e6a5c21fca9290510"
+
+[[tasks]]
+name = "local/007-reconstruct-prostate-obj"
+digest = "sha256:223824054b9d75274ac08dacced26f4fcbc88f4ba19e6aa8ef9935d83a03f52f"
+
+[[tasks]]
+name = "local/008-find-bird-chase-frames"
+digest = "sha256:5dcae5aabf3e4d190b7bba6774a13714f8df5a1d44216eb3b2414ecafb66702a"
+
+[[tasks]]
+name = "local/009-repair-org-chart-layout"
+digest = "sha256:cd3842aea556413255e28e2a94458597fba33b684a8f119badd093f8e39c2928"
+
+[[tasks]]
+name = "local/010-pivot-product-revenue"
+digest = "sha256:e5aded664371b6724b7fe1ac4b36b328357798ce5464540bba2e9dd0bb7e0601"
+
+[[tasks]]
+name = "local/011-epw-parquet-check"
+digest = "sha256:06c6f6bc754b2d2a6c919e7532f25d214504f6e6ed57e56bb7375f43bf8f8742"
+
+[[tasks]]
+name = "local/012-hide-na-budget-values"
+digest = "sha256:93bd1b61e4f7755f7446824209f8ca321cf53148853584c53c0fa342d2a9b298"
+
+[[tasks]]
+name = "local/013-format-demographic-sheet"
+digest = "sha256:a56e8c017ebc62c424faca4ba223522ac09497d315a57bf271936f7c66028e6d"
+
+[[tasks]]
+name = "local/014-pivot-promo-revenue"
+digest = "sha256:310e8f8b95fd3fa3400dbd151a5a67299c9208007ade55ce0fdaeb133b461c44"
+
+[[tasks]]
+name = "local/015-gym-auditorium-sim"
+digest = "sha256:2338b42a2ae46c621ef9576a7199cca4a8b64c5bba6327134a54e3138cf7e28f"
+
+[[tasks]]
+name = "local/016-count-invoice-pivot"
+digest = "sha256:08e89bc5cc81d8ec7da997ffad2f3a1b8c13045fa8008fd4b7f32d06b032635a"
+
+[[tasks]]
+name = "local/017-clean-movie-titles"
+digest = "sha256:c4973adc434d823b7b9ddd564f2d9905becb124cd788b1357b593de58d8c5db6"
+
+[[tasks]]
+name = "local/018-calculate-total-earnings"
+digest = "sha256:722b8cc496ae9b6b56e7fc138fde3c3854edc636ac8fcd08683ef3bf2743ffd1"
+
+[[tasks]]
+name = "local/019-prostate-red-overlay"
+digest = "sha256:101e950dca842fad853f0bae719591d9f6e6f7fd7d46087df069c48a1a3b93d0"
+
+[[tasks]]
+name = "local/020-calculate-period-rate"
+digest = "sha256:24c90b7d0f8b98ec7436350b4ae86f4434ab598b5eeebe336b7527dcef40e3ff"
+
+[[tasks]]
+name = "local/021-fill-ramp-chart"
+digest = "sha256:d76db84b0bf657b2d3455e1fca7c5711e692c1be997cfeb03c2c57ecbcc72cb2"
+
+[[tasks]]
+name = "local/022-monthly-sales-line-chart"
+digest = "sha256:f9eee05c407326ad0fcb0f836b808bf2116ac57a8230ec18a183c507658e7da2"
+
+[[tasks]]
+name = "local/023-comma-decimal-separator"
+digest = "sha256:04bfffa6f2cb668fc71d1e86c7b1458c81751c7d26a7ba8705778cb3225ae06e"
+
+[[tasks]]
+name = "local/024-wa-osm-to-idf"
+digest = "sha256:5cd42e419eb1b7715f5407c4263634f388959587edcd933442e47b07ffa776fb"
+
+[[tasks]]
+name = "local/025-product-channel-pivots"
+digest = "sha256:b134081d3d233d018b75d563005a346bf6fc7aca58fbbeca9a9c93727b3307b2"
+
+[[tasks]]
+name = "local/026-sales-cogs-column-chart"
+digest = "sha256:9737f5dfd41e80ee87acee7ce085831055e4d8af625cd4e6faf41a01302a9cb4"
+
+[[tasks]]
+name = "local/027-add-dota-dlc-cart"
+digest = "sha256:cdbe6c27e69c54a7d759432212d94a34b510ff4bc67ba571625527cff359538e"
+
+[[tasks]]
+name = "local/028-civil-division-forms"
+digest = "sha256:1933e47e3ff466a404ec275e098079f566d08f3b2439875bdc56ae01a18d541b"
+
+[[tasks]]
+name = "local/029-natural-products-page"
+digest = "sha256:7fc9917744b890eb3d4506c25bca6dbaf52e49d134018f165a9833e0d2612497"
+
+[[tasks]]
+name = "local/030-womens-nike-jerseys"
+digest = "sha256:b8dcc7de22ff3f63805d3221d119702869159043dae780f78b672db2185a1616"
+
+[[tasks]]
+name = "local/031-profile-name-thomas"
+digest = "sha256:2f6ce97b3741f10c55b7b1850b5a051ad1e6ced6b48285389ca27fed5a9f5118"
+
+[[tasks]]
+name = "local/032-compare-iphones"
+digest = "sha256:aaf90bf56bed8aa291cd01f3852fb274385d26c585546b6aaa81eb0f9b93a149"
+
+[[tasks]]
+name = "local/033-prostate-volume-est"
+digest = "sha256:63b7f0c3908e8cb14888b08d0fc701726227cdf22e0ba1fefd693976bd4b6cf3"
+
+[[tasks]]
+name = "local/034-turn-off-dark-mode"
+digest = "sha256:a3b46a818b5e5769bc57993647bc78dd2200a00f431ac51671b343fcd9ed63b2"
+
+[[tasks]]
+name = "local/035-super-bowl-score"
+digest = "sha256:b705b41757bdbc1969c1c77ee4cdf22f4856183195bc83629fb2e19961e41326"
+
+[[tasks]]
+name = "local/036-license-eligibility"
+digest = "sha256:f452a428e0baec89ec0796e9cf359870b736657d737e494b9bd609d4eaa04596"
+
+[[tasks]]
+name = "local/037-electric-cars-under-50k"
+digest = "sha256:33534ca1578447a6d953717107d47e3f436bbc7b883610ccf1d79b616afb5178"
+
+[[tasks]]
+name = "local/038-zurich-rental-car"
+digest = "sha256:386c6fb8d8f5a665bf27a8d53c31d8ae50cf0a4f9695357589682a1f7e471311"
+
+[[tasks]]
+name = "local/039-manchester-forecast"
+digest = "sha256:58a803f3a6f5aa5a7332b05e9466222c3105de71931d582211716a7c193a5210"
+
+[[tasks]]
+name = "local/040-seattle-ny-miles-flight"
+digest = "sha256:4d8725cb57f3629a3c03dd7ae118d93f07e796126655ec71147a57807407cffc"
+
+[[tasks]]
+name = "local/041-baby-name-carl"
+digest = "sha256:e231369f9315eb0ff8b94b6f6fed6f3e88f2bf1eef1d67b52bd4c427e31abc0b"
+
+[[tasks]]
+name = "local/042-black-sale-coffee-makers"
+digest = "sha256:0d505f1a71b938e91de971f3f6317de761e6453ed2bcf77a80cdb57dfdc9a540"
+
+[[tasks]]
+name = "local/043-load-hello-extension"
+digest = "sha256:fee51d8dfc9ef6dfacd1839c0a7e6eaf2c5c6104f4512aa2f0c734e380172351"
+
+[[tasks]]
+name = "local/044-etsy-saved-passwords"
+digest = "sha256:7949089ac57e242699dffa2b614b8bb45eddd2f5e62912803030fa5642d82ef8"
+
+[[tasks]]
+name = "local/045-united-bag-fee-page"
+digest = "sha256:af7d23d0a8d026ef4cc1394bd8dfd78ccf350dce2d086173b37063c9b8fda2d3"
+
+[[tasks]]
+name = "local/046-restore-tripadvisor-tab"
+digest = "sha256:5652edcf48a210b7cef8a27ba5224a391783da24a584aa5a3668081c780f001d"
+
+[[tasks]]
+name = "local/047-set-bing-search"
+digest = "sha256:19c72fd72cdcfa8fa95b5235e6d85b1118c5a981fdccd502a266c7799d356210"
+
+[[tasks]]
+name = "local/048-tamiflu-side-effects"
+digest = "sha256:041e965ae14084b1ab00a466aaaa009e8acc19fafc24eb206ad0ac37ed45b961"
+
+[[tasks]]
+name = "local/049-remove-dog-background"
+digest = "sha256:92d931eee3db680aaaf50eeaa031c3e48dc140a65eaa0e06c8ba5b807fa5e37a"
+
+[[tasks]]
+name = "local/050-mri-png-slices"
+digest = "sha256:e6989125ecfd18aba4075b52d5c19ef2311933e53444a3f5b04445d5317b6f1a"
+
+[[tasks]]
+name = "local/051-hide-left-dock"
+digest = "sha256:ff37ecb961955fc3be45332793aa6ffe92dce3e5733ec657a7063dca94655a9a"
+
+[[tasks]]
+name = "local/052-vignette-filter-window"
+digest = "sha256:562aca0da2abb726637d2c20da5259a7d2ed8d1ca48cd148f46e6a567bdaf778"
+
+[[tasks]]
+name = "local/053-make-palette-png"
+digest = "sha256:ebdb3115e1458e6014989fd4d88a6127c5e68d2ba8fb63efeb34f87fb46341e4"
+
+[[tasks]]
+name = "local/054-prostate-label-obj"
+digest = "sha256:70c35c9212b581041a74a3cacded2f9e81ceef739642480ac459cd2056d66f93"
+
+[[tasks]]
+name = "local/055-resize-dog-layer"
+digest = "sha256:d1855ac845f6b125b13050bd64435f59ca8eeba26fef8cb76e3206cb8ea6b8b9"
+
+[[tasks]]
+name = "local/056-move-textbox-left"
+digest = "sha256:1173d38ed23bfc0193c1382a369655bae2ecafc8cf3d7436edda856e945db572"
+
+[[tasks]]
+name = "local/057-set-undo-steps-100"
+digest = "sha256:a55844cd9d382ea5a822b842767189cc47cc9a2c10a18328e22b20c757cd2f10"
+
+[[tasks]]
+name = "local/058-autosave-3-minutes"
+digest = "sha256:ac159ea27ccbcbef14fd75b630aa17f8e3877c6ef8dfcebf84ce391853e7156b"
+
+[[tasks]]
+name = "local/059-make-summary-slide"
+digest = "sha256:e0e000fa0d43876f4b96b0d4312f482888cc03e76102f94af799a0a764deaf3f"
+
+[[tasks]]
+name = "local/060-underline-red-text"
+digest = "sha256:f9383e503e2ed24f7e687a8ab778c358e01f69173def2c35add0085c6971a02d"
+
+[[tasks]]
+name = "local/061-insert-features-table"
+digest = "sha256:b9593eb1838cb424bf85b94c2f0eec5da2c69599e194d7f68ccb5932f4f8374a"
+
+[[tasks]]
+name = "local/062-add-baseball-audio"
+digest = "sha256:28929bc8d7f7366eaeab65c53f2c6a004d0068c1eb171bdc132c63e745b74249"
+
+[[tasks]]
+name = "local/063-red-slide-numbers"
+digest = "sha256:84a055b2428fd4c20b021d9e1f819a4a65740b6ea36c3c2a2b250288e5332441"
+
+[[tasks]]
+name = "local/064-stretch-cover-image"
+digest = "sha256:6b661ff7078c591b11e15211399d0cca96424844a247eca1ff9155d77516b469"
+
+[[tasks]]
+name = "local/065-resize-slide3-slide6"
+digest = "sha256:0bfb1de5f87d2938c6e7cf3fb50e12d3bc6b202f18f417addda6100717927541"
+
+[[tasks]]
+name = "local/066-set-slide-image-heights"
+digest = "sha256:d629ec465e8d152763f894f05557f90dc0e3b560bc8b1a3bc91cf86589105dee"
+
+[[tasks]]
+name = "local/067-align-slide-textboxes"
+digest = "sha256:6d308b3e5833c17d2d1cfac74120e62a74a256b35a48480d353864376261652c"
+
+[[tasks]]
+name = "local/068-strike-first-two-lines"
+digest = "sha256:d1000ce889f6b1996b4b0f6e7d6b905bbbc6c336953cfe1cbcc29065271e3c85"
+
+[[tasks]]
+name = "local/069-linux-ls-tutorial"
+digest = "sha256:43b5c9f2699efb781aa7d959e1122404e4256c825723dd3b5c27cca712299dd2"
+
+[[tasks]]
+name = "local/070-edit-friend-image"
+digest = "sha256:f6edbcbf893efb889ef278672df31d8d07b15e7d6dbc39b0a667b7b56174fce5"
+
+[[tasks]]
+name = "local/071-paste-image-docx"
+digest = "sha256:44a8060620c7d6f3770bd043fd7fe54245f2f57d00ad48ce1e07310a46a0f4f8"
+
+[[tasks]]
+name = "local/072-save-speedtest-results"
+digest = "sha256:584ca0f8dfbe7522b51cd004b9220d7cf51379f45e847be08c0ac6a83a4a984a"
+
+[[tasks]]
+name = "local/073-force-quit-frozen-doc"
+digest = "sha256:2653418c9592e953acead0218cc545f1466500d7f8838c0c3a6aa2383438f2e5"
+
+[[tasks]]
+name = "local/074-apa-references-review"
+digest = "sha256:3186b1622654b216c009b3254fb0a777616cb1a78bc5adfc5cfb03abc6bbb3f7"
+
+[[tasks]]
+name = "local/075-nuclei-locations"
+digest = "sha256:9e4f7880dbd779e4a3725f36329f982d9436f7598866d18229f5f04de4e6870c"
+
+[[tasks]]
+name = "local/076-make-src-gif-clip"
+digest = "sha256:79046a3e32045991c721c6862cbd54f9939b85d9ab97a64f0010fccab82ce142"
+
+[[tasks]]
+name = "local/077-corresponding-scholar-url"
+digest = "sha256:bca134faddd1cec6e060d3067ed5802df1bc9f2662f829e96dbf31e464adf9bb"
+
+[[tasks]]
+name = "local/078-add-wednesday-lecture"
+digest = "sha256:6d62b17d14b0ca9d17554f49f6f4630b09c0822e1f66b43c0122061c0bc1e8ea"
+
+[[tasks]]
+name = "local/079-fix-mp3-metadata"
+digest = "sha256:062be23992fd4c53c25a6e0ed7a51d03650221df2baabb863962a78461765f9d"
+
+[[tasks]]
+name = "local/080-convert-novel-epub"
+digest = "sha256:7133be754de7a7979dad5ed82f907205ad25adf5beac7f809883051953ffae92"
+
+[[tasks]]
+name = "local/081-video-frame-slide-bg"
+digest = "sha256:07c06a6b521f3f9b79153e8ba66c603963934987943e215933edd40205617eab"
+
+[[tasks]]
+name = "local/082-brighten-slide-image"
+digest = "sha256:6cea5b5cf09920606d1d6a4ada0f8bd606b97e8af3919b3ff92dd8c81f48523a"
+
+[[tasks]]
+name = "local/083-gemini-responses-docx"
+digest = "sha256:c8dcd92c1d3c9883cb10794565e9cc9e71738f67b705ecb905b0ba566051e0ab"
+
+[[tasks]]
+name = "local/084-plate-thermal-sim"
+digest = "sha256:cd7df4d358cdb5649227e28da1b48c102db36ac33dd485696f85c63c9b953f60"
+
+[[tasks]]
+name = "local/085-webext-happy-scaffold"
+digest = "sha256:db2b477746091240989d1fc698ebc036c164412f97bed6bcd7646b9e04d310be"
+
+[[tasks]]
+name = "local/086-futian-checkin-addresses"
+digest = "sha256:4732cf93f9ea3e496e58c704dcfdbc25d4609e4974e62decbec8068d396ed948"
+
+[[tasks]]
+name = "local/087-spreadsheet-to-doc-table"
+digest = "sha256:abd91c0cc394e1671c61212b675e4148288d6ebfd5e7618e02599c3a856b292b"
+
+[[tasks]]
+name = "local/088-extract-presenter-photos"
+digest = "sha256:018d93c04972e3f8977464428b261c6b51a24ac4d1783e67de84ab98ef721746"
+
+[[tasks]]
+name = "local/089-install-recommended-exts"
+digest = "sha256:b4e6a4656f4e0b95f1a21381bc40083fef25f2c0e92ff6113e393f2d64533ba8"
+
+[[tasks]]
+name = "local/090-ecs-grf-pass-rates"
+digest = "sha256:eea161bdf475d63925824d682e8bdf3b6d8f480803ec1c3698d5faa8101b6a89"
+
+[[tasks]]
+name = "local/091-add-receipts-bookkeeping"
+digest = "sha256:a38c47f57ed9fc0184c35db274182fade5a954e6ad6f2d640ebe19710b92e3cd"
+
+[[tasks]]
+name = "local/092-fix-tetris-bug"
+digest = "sha256:4cd3abcd0e6bdb5498875537f3c14f640d9e41dbb9ac91f9722d907944a3cef2"
+
+[[tasks]]
+name = "local/093-merge-txt-document"
+digest = "sha256:609d1162d2fe5b3c5818b6cabdda48460a0261314a59fc8247e7373e20a204a7"
+
+[[tasks]]
+name = "local/094-author-homepage-bookmarks"
+digest = "sha256:15c48598001426317522b778956f1723705b8d21fd7e095004b0168606368e7d"
+
+[[tasks]]
+name = "local/095-save-apple-searching-page"
+digest = "sha256:9821dffb8ab452803cea53d537f9f5afda0b93ab35529ae1f688ea7d52434fdd"
+
+[[tasks]]
+name = "local/096-first-author-table"
+digest = "sha256:106ea509e20367cc526801de7c10112156358942b64a499bed7f5d2c71e7f47f"
+
+[[tasks]]
+name = "local/097-slides-to-document"
+digest = "sha256:9fef211495836afbca3a94b05570db6c095db02ea79a10c97e89286718e7bfe9"
+
+[[tasks]]
+name = "local/098-extract-email-doc-image"
+digest = "sha256:c12887cc82cde5686c19d8719ca6f171a73a56a0dd2561870a033300a57d78a6"
+
+[[tasks]]
+name = "local/099-professor-contact-info"
+digest = "sha256:a795bf957b119350696c4d7ea1f7e52e927e375b68d89a3c3eb9cea2009ebbae"
+
+[[tasks]]
+name = "local/100-name-mountain-photos"
+digest = "sha256:07a19f4caf33e384fcc1fe42645d9d5d84329c6dd15f26b1b6c4bfd61d1237f9"
+
+[[tasks]]
+name = "local/101-rearrange-warm-tiles"
+digest = "sha256:6d701879bbfa5a48ba4943f54fbb2dd2ccc48670aa89340d159fc3f29aad4670"
+
+[[tasks]]
+name = "local/102-daily-email-report"
+digest = "sha256:88037186b20b7ceb2d66876300d423d928a2f76472b63de47ee486d9d973d7ec"
+
+[[tasks]]
+name = "local/103-download-blog-pdfs"
+digest = "sha256:bfc0a05847d366231043b1c4ac93c19fd4abf6b7a3c3b1a69cc6a24de6645742"
+
+[[tasks]]
+name = "local/104-arxiv-llm-workbook"
+digest = "sha256:8782d79e16099db7437f192fbfefce3a6e4afa1016c5fc1d6da03d20fd2c5697"
+
+[[tasks]]
+name = "local/105-search-cell-b6"
+digest = "sha256:b656cb34287534524112029ce0b4586a960c2b6e56626973a499eb2af3f18e4d"
+
+[[tasks]]
+name = "local/106-create-charles-ssh-user"
+digest = "sha256:40d2eeb146d1294ab34fd40249baafc2a966c3fb410f3fe60deb53f68c023ab1"
+
+[[tasks]]
+name = "local/107-attach-aws-bill"
+digest = "sha256:4fea5239e2ca557342b81eb2675a1bbaa953ff49f33415f69db4634ef16db830"
+
+[[tasks]]
+name = "local/108-create-mail-folders"
+digest = "sha256:27466efd6840768df2c420f24256528a2732da76d096595e1273c9adedf82ba3"
+
+[[tasks]]
+name = "local/109-setup-outlook-account"
+digest = "sha256:81b2ad05023908ce1fe532d18190bc1679f9a2e66270a73994ec09a3feb594db"
+
+[[tasks]]
+name = "local/110-rotate-macintosh-video"
+digest = "sha256:0e94e88b8bb6cf10979c64794ac07533eedf0e1d4ec74a7ed6fbe41eed0b7e39"
+
+[[tasks]]
+name = "local/111-set-video-wallpaper"
+digest = "sha256:e33f11efc84b13ba46801c45e0e007972059f904bec55e3c80960fcf55775447"
+
+[[tasks]]
+name = "local/112-capture-video-frame"
+digest = "sha256:b59e2f69272f22f72d518e4743a075e5223779152fa3d5255a1350fde9c98ddd"
+
+[[tasks]]
+name = "local/113-add-folders-workspace"
+digest = "sha256:d46df1e3917537aaea0c9c588e08dcdff5282017233c7ff9a8d97af2b8154d98"
+
+[[tasks]]
+name = "local/114-nuclei-csv-open"
+digest = "sha256:993779ce55285bf791c9e890ccfe4c1bf90fef79cc51769cafecd6c06279c8a6"
+
+[[tasks]]
+name = "local/115-remove-explorer-find-key"
+digest = "sha256:b5c745f2089e680a1608906ed014e45eb57244c2aa496632abd71c605172b50a"
+
+[[tasks]]
+name = "local/116-bottom-left-page-numbers"
+digest = "sha256:b66b67481855a9c4c18204edf2e41680872204e8c2af7e07525c92f22618b934"
+
+[[tasks]]
+name = "local/117-comma-text-to-table"
+digest = "sha256:beed7eab997b16344a984a0a8ee56c3dd53e8d1ba7f7320b5f0b2e3149e0f573"
+
+[[tasks]]
+name = "local/118-set-times-new-roman"
+digest = "sha256:a28d9baa798d6ece3e99b5ea1284c352359f79d363a7b8743c62e80443e41614"
+
+[[tasks]]
+name = "local/119-tabstop-sentence-split"
+digest = "sha256:0b939b746285f9b2ebda0da1673569cb7c0d13984180160a5f240f14055155ab"
+

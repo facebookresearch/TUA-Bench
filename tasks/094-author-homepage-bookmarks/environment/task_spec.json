@@ -1,0 +1,15 @@
+{
+  "slug": "094-author-homepage-bookmarks",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/a82b78bb-7fde-4cb3-94a4-035baf10bcf0/2206.08853.pdf",
+      "path": "/app/2206.08853.pdf",
+      "dest_name": "2206.08853.pdf"
+    }
+  ],
+  "artifact_paths": [
+    "/home/user/.config/google-chrome/Default/Bookmarks"
+  ],
+  "build_setup": [],
+  "startup": {}
+}

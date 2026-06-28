@@ -1,0 +1,1 @@
+Given the file `/app/41_3.pptx`, could you help me insert a table with 5 rows and 2 columns into the "Features" slide, optionally using LibreOffice Impress if needed? Please save the updated presentation in place at `/app/41_3.pptx`.

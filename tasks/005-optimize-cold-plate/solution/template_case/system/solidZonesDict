@@ -1,0 +1,45 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  11
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    object      topoSetDict;
+}
+
+actions
+(
+    {
+        name    chipSourceCells;
+        type    cellSet;
+        action  new;
+        source  boxToCell;
+        box     (0.030000 0.030000 0.000000) (0.050000 0.050000 0.000500);
+    }
+    {
+        name    chipSource;
+        type    cellZoneSet;
+        action  new;
+        source  setToCellZone;
+        set     chipSourceCells;
+    }
+    {
+        name    chipBottomFaces;
+        type    faceSet;
+        action  new;
+        source  boxToFace;
+        box     (0.030000 0.030000 -0.000001) (0.050000 0.050000 0.000001);
+    }
+    {
+        name    chipBottom;
+        type    faceZoneSet;
+        action  new;
+        source  setToFaceZone;
+        set     chipBottomFaces;
+    }
+);

@@ -1,0 +1,16 @@
+room_id,short_name,full_name,width_m,depth_m,area_m2
+01,GYM C EA,SecondarySchool Gym C end_a - Story ground,4.572,4.572,20.903
+02,GYM C,SecondarySchool Gym C  - Story ground,28.591,4.572,130.719
+03,AUD C,SecondarySchool Auditorium C  - Story ground,16.565,4.572,75.736
+04,GYM AUD C,SecondarySchool Gym - audience C  - Story ground,16.365,4.572,74.819
+05,GYM AUD C EB,SecondarySchool Gym - audience C end_b - Story ground,4.572,4.572,20.903
+06,GYM B EA,SecondarySchool Gym B end_a - Story ground,4.572,26.188,119.734
+07,GYM B,SecondarySchool Gym B  - Story ground,28.591,26.188,748.761
+08,AUD B,SecondarySchool Auditorium B  - Story ground,16.565,26.188,433.817
+09,GYM AUD B,SecondarySchool Gym - audience B  - Story ground,16.365,26.188,428.563
+10,GYM AUD B EB,SecondarySchool Gym - audience B end_b - Story ground,4.572,26.188,119.734
+11,GYM A EA,SecondarySchool Gym A end_a - Story ground,4.572,4.572,20.903
+12,GYM A,SecondarySchool Gym A  - Story ground,28.591,4.572,130.719
+13,AUD A,SecondarySchool Auditorium A  - Story ground,16.565,4.572,75.736
+14,GYM AUD A,SecondarySchool Gym - audience A  - Story ground,16.365,4.572,74.819
+15,GYM AUD A EB,SecondarySchool Gym - audience A end_b - Story ground,4.572,4.572,20.903

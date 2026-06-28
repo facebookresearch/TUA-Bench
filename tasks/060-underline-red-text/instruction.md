@@ -1,0 +1,1 @@
+Given the file `/app/154_3.pptx`, could you help me edit it, optionally using LibreOffice Impress if needed? Please underline the body of the slide only (without the title and table) in dark red 2, and change the font color of the whole slide (title, body, and table) to dark red 2. Finally, save the updated presentation in place at `/app/154_3.pptx`.

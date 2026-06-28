@@ -1,0 +1,1 @@
+Given the file `/app/dog_with_background.png`, could you help me make the background transparent, optionally using GIMP if needed? Please keep the original canvas size, preserve the dog subject, fully clear the removed background so no original background color remains in transparent regions, and save the result as `/app/dog_without_background.png`.

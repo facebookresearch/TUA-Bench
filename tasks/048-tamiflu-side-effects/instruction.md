@@ -1,0 +1,1 @@
+Given the website `https://www.drugs.com/`, could you help me show the side effects of Tamiflu? You can optionally use Chrome if needed. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

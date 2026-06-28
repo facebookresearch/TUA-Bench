@@ -1,0 +1,1 @@
+Given the website `https://www.drugs.com/`, could you help me browse to the natural products database page? You can do this optionally using Chrome if needed. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

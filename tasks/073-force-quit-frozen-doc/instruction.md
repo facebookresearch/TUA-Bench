@@ -1,0 +1,1 @@
+Given the file my_document.odt, the application I'm working in—optionally using LibreOffice Writer if needed—seems to have frozen and I can't get it to close normally. Could you help me force quit the application from the command line? I'm on Ubuntu, and I don't want to restart my computer or lose any other work I have open.

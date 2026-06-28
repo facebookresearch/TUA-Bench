@@ -1,0 +1,17 @@
+{
+  "slug": "085-webext-happy-scaffold",
+  "downloads": [],
+  "build_setup": [
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/app"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

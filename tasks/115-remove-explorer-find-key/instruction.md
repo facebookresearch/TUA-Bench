@@ -1,0 +1,1 @@
+Given the file `~/.config/Code/User/keybindings.json`, could you help me remove the shortcut `ctrl+f` for Tree View Find (Explorer search) in the VS Code Explorer view to avoid a shortcut conflict, optionally using VS Code if needed?

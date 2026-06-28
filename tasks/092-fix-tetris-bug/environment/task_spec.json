@@ -1,0 +1,38 @@
+{
+  "slug": "092-fix-tetris-bug",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/9219480b-3aed-47fc-8bac-d2cffc5849f7/block.py",
+      "path": "/home/user/Desktop/tetris/block.py",
+      "dest_name": "block.py"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/9219480b-3aed-47fc-8bac-d2cffc5849f7/main.py",
+      "path": "/home/user/Desktop/tetris/main.py",
+      "dest_name": "main.py"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/9219480b-3aed-47fc-8bac-d2cffc5849f7/settings.py",
+      "path": "/home/user/Desktop/tetris/settings.py",
+      "dest_name": "settings.py"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/9219480b-3aed-47fc-8bac-d2cffc5849f7/tetris.py",
+      "path": "/home/user/Desktop/tetris/tetris.py",
+      "dest_name": "tetris.py"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Desktop/tetris"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

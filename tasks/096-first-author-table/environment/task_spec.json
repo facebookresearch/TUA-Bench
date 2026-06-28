@@ -1,0 +1,38 @@
+{
+  "slug": "096-first-author-table",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/b5062e3e-641c-4e3a-907b-ac864d2e7652/2312.13771.pdf",
+      "path": "/home/user/Documents/Papers/zhang_appagent.pdf",
+      "dest_name": "zhang_appagent.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/b5062e3e-641c-4e3a-907b-ac864d2e7652/2402.07945.pdf",
+      "path": "/home/user/Documents/Papers/niu_screenagent.pdf",
+      "dest_name": "niu_screenagent.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/b5062e3e-641c-4e3a-907b-ac864d2e7652/2401.13649.pdf",
+      "path": "/home/user/Documents/Papers/koh_visualwebarena.pdf",
+      "dest_name": "koh_visualwebarena.pdf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/b5062e3e-641c-4e3a-907b-ac864d2e7652/5950bf290a1570ea401bf98882128160-Paper-Datasets_and_Benchmarks.pdf",
+      "path": "/home/user/Documents/Papers/deng_mind2web.pdf",
+      "dest_name": "deng_mind2web.pdf"
+    }
+  ],
+  "build_setup": [
+    {
+      "type": "command",
+      "parameters": {
+        "command": [
+          "mkdir",
+          "-p",
+          "/home/user/Documents/Papers"
+        ]
+      }
+    }
+  ],
+  "startup": {}
+}

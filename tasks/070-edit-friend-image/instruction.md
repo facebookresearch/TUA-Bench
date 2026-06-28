@@ -1,0 +1,1 @@
+Given the files at `/home/user/Desktop/`, could you help me assist a friend who asked for help editing an image? Please make the necessary modifications to the picture according to the instructions in the requirements document. Once finished, please save the edited picture as "pic.jpg" to the final output path: `/home/user/Desktop/pic.jpg`. Thank you!

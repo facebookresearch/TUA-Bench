@@ -1,0 +1,1 @@
+Given the file {path}, could you help me enhance the brightness of the image on the second slide, as it looks a bit too dim? You can optionally use PowerPoint if needed. Please save the adjusted image on the Desktop and name it "background.png". Thank you!

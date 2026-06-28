@@ -1,0 +1,22 @@
+{
+  "slug": "100-name-mountain-photos",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/ce2b64a2-ddc1-4f91-8c7d-a88be7121aac/picture1.jpg",
+      "path": "/home/user/Pictures/picture1.jpg",
+      "dest_name": "picture1.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/ce2b64a2-ddc1-4f91-8c7d-a88be7121aac/picture2.jpg",
+      "path": "/home/user/Pictures/picture2.jpg",
+      "dest_name": "picture2.jpg"
+    },
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/ce2b64a2-ddc1-4f91-8c7d-a88be7121aac/picture3.jpg",
+      "path": "/home/user/Pictures/picture3.jpg",
+      "dest_name": "picture3.jpg"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

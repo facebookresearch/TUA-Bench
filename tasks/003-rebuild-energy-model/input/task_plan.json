@@ -1,0 +1,38 @@
+{
+  "source_floorplan": "floorplan.png",
+  "source_weather": "weather.epw",
+  "artifact_dir": "/app/artifacts",
+  "reconstructed_osm_output": "/app/artifacts/reconstructed_building.osm",
+  "translated_idf_output": "/app/artifacts/generated_building.idf",
+  "simulation_output_dir": "/app/artifacts/energyplus_run",
+  "render_output_dir": "/app/artifacts/render_views",
+  "review_render_output": "/app/artifacts/building_render.png",
+  "summary_output": "/app/artifacts/simulation_summary.txt",
+  "meter_output_frequency": "Timestep",
+  "required_meter_names": [
+    "Electricity:Facility",
+    "NaturalGas:Facility",
+    "FuelOilNo2:Facility"
+  ],
+  "required_simulation_artifacts": [
+    "eplusout.mtr",
+    "eplusout.sql",
+    "eplustbl.htm",
+    "eplusout.end",
+    "eplusout.err"
+  ],
+  "source_bldg_id": 100094,
+  "source_row_count": 35040,
+  "relative_tolerance": 0.01,
+  "summary_key_order": [
+    "bldg_id",
+    "translated_version",
+    "building_name",
+    "weather_file",
+    "row_count",
+    "annual_electricity_kwh",
+    "annual_natural_gas_kwh",
+    "annual_fuel_oil_kwh",
+    "annual_site_energy_kwh"
+  ]
+}

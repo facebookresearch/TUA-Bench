@@ -1,0 +1,12 @@
+{
+  "slug": "087-spreadsheet-to-doc-table",
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/81c425f5-78f3-4771-afd6-3d2973825947/OSP_Envelope_Price-List_2023_5000.xlsx",
+      "path": "/app/OSP_Envelope_Price-List_2023_5000.xlsx",
+      "dest_name": "OSP_Envelope_Price-List_2023_5000.xlsx"
+    }
+  ],
+  "build_setup": [],
+  "startup": {}
+}

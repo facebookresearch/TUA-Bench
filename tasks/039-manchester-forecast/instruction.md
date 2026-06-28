@@ -1,0 +1,1 @@
+Given the website `https://www.accuweather.com/`, could you help me find the monthly forecast for Manchester, GB for this month, optionally using Chrome if needed? Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

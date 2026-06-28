@@ -1,0 +1,1 @@
+Given the MP3 files in `/home/user/Music/`, which have blank metadata but are already named with their artists and titles, could you help me fix the "title" and "artist" metadata, optionally using Picard or Kid3 if needed?

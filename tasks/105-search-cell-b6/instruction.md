@@ -1,0 +1,1 @@
+Given the file {path}, could you help me copy the data from Cell B6 and search for it in a web browser? You can optionally use LibreOffice Calc and Google Chrome if needed. Open the relevant page and, when finished, leave that exact page selected as the active tab in the foreground window.

@@ -1,0 +1,1 @@
+Given the file `/app/computer.png`, could you help me set the image to be palette-based? You can do this optionally using GIMP if needed. Please keep the image visually the same while making the exported PNG palette-based, and save the result as `/app/palette_computer.png`.

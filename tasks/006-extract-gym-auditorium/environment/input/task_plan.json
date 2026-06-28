@@ -1,0 +1,14 @@
+{
+  "source_osm": "building.osm",
+  "source_weather": "weather.epw",
+  "artifact_dir": "/app/artifacts",
+  "reduced_osm_output": "/app/artifacts/gym_auditorium_only.osm",
+  "simulation_output_dir": "/app/artifacts/energyplus_validation_run",
+  "allowed_space_name_keywords": [
+    "gym",
+    "auditorium"
+  ],
+  "expected_space_count": 15,
+  "expected_thermal_zone_count": 15,
+  "floor_area_relative_tolerance": 0.05
+}

@@ -1,0 +1,1 @@
+Given the file {path}, could you help me fix a bug in my code? I've recently been playing around with developing a small Python-based Tetris game, and while I've finished most of it, something goes wrong in certain cases. Specifically, when I press 'up' to rotate, the whole program crashes. Please fix the bugs in the code, optionally using Python to run it if needed.
