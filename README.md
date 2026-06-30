@@ -19,7 +19,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-paper-orange?logo=arxiv)](https://arxiv.org/) [![Website](https://img.shields.io/badge/website-TUA--Bench-blue?logo=googlechrome)](https://tuabench.ai/) [![License](https://img.shields.io/badge/license-CC_BY--NC-red?logo=creativecommons)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-paper-orange?logo=arxiv)](https://arxiv.org/2606.28480) [![Website](https://img.shields.io/badge/website-TUA--Bench-blue?logo=googlechrome)](https://tuabench.ai/) [![License](https://img.shields.io/badge/license-CC_BY--NC-red?logo=creativecommons)](LICENSE)
 
 </div>
 
@@ -135,7 +135,7 @@ If you find this project useful, please use the following BibTeX entry.
 @article{chen2026tua,
   title={TUA-Bench: A Benchmark for Terminal-Use Agents},
   author={Chen, Shoufa and Wang, Luyuan and Yang, Xuan and Liu, Zhiheng and Cong, Yuren and Ji, Yuanfeng and Zhou, Feiyan and Zhang, Xiaohui and Yang, Fanny and Zeng, Belinda},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2606.28480},
   year={2026}
 }
 ```
