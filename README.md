@@ -19,7 +19,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-paper-orange?logo=arxiv)](https://arxiv.org/2606.28480) [![Website](https://img.shields.io/badge/website-TUA--Bench-blue?logo=googlechrome)](https://tuabench.ai/) [![License](https://img.shields.io/badge/license-CC_BY--NC-red?logo=creativecommons)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-paper-orange?logo=arxiv)](https://arxiv.org/abs/2606.28480) [![Website](https://img.shields.io/badge/website-TUA--Bench-blue?logo=googlechrome)](https://tuabench.ai/) [![License](https://img.shields.io/badge/license-CC_BY--NC-red?logo=creativecommons)](LICENSE)
 
 </div>
 
