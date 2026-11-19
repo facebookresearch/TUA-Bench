@@ -8,4 +8,4 @@
 
 set -euo pipefail
 
-vlc --video-wallpaper --start-time=120.5 '/home/agent/Desktop/Interstellar Movie - Official Trailer.mp4'
+vlc --video-wallpaper --start-time=121.246 '/home/agent/Desktop/Interstellar Movie - Official Trailer.mp4'

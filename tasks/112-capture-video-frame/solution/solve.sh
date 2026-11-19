@@ -8,4 +8,4 @@
 
 set -euo pipefail
 
-vlc --start-time=120.5 --snapshot-path /home/agent/Desktop --snapshot-prefix interstellar --snapshot-format png '/home/agent/Desktop/Interstellar Movie - Official Trailer.mp4'
+vlc --start-time=121.246 --snapshot-path /home/agent/Desktop --snapshot-prefix interstellar --snapshot-format png '/home/agent/Desktop/Interstellar Movie - Official Trailer.mp4'
